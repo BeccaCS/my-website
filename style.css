@@ -105,20 +105,45 @@ p {
   padding-top: 55px;
 }
 
-.about-me {
-  padding-top: 55px;
+.about-me,
+.contact-me {
+  padding-top: 60px;
+  margin-top: 20px;
 }
 
 .container-padding {
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 
-/*.contact-container {
+.social-links {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 60px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
 }
-*/
+
+.social-links a {
+  text-decoration: none;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.profile-picture {
+  width: 300px;
+  border-radius: 90%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.about-container {
+  position: absolute;
+  top: 50px;
+}
+
+.work-images {
+  padding-top: 30px;
+}
