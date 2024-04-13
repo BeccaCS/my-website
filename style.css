@@ -4,10 +4,11 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 60px auto;
-  max-width: 800px;
+.nav-color {
+  background-color: #b8e2f7;
 }
+
+
 
 h1,
 h2,
@@ -146,4 +147,9 @@ p {
 
 .work-images {
   padding-top: 30px;
+}
+
+.home-content-heading {
+  display: block;
+  margin: 0 auto;
 }
